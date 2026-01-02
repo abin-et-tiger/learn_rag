@@ -3,3 +3,13 @@
 
 # Virtual Environments
 .venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
