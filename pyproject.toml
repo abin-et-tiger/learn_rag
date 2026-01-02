@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "bs4>=0.0.2",
     "langchain-community>=0.4.1",
     "langchain-openai>=1.1.6",
     "langchain-text-splitters>=1.1.0",
@@ -12,4 +13,5 @@ dependencies = [
     "langgraph>=1.0.5",
     "numpy>=2.4.0",
     "pandas>=2.3.3",
+    "pydantic-settings>=2.12.0",
 ]
